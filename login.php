@@ -76,9 +76,9 @@ if($user!="" && $pass!="" && $LoginUser=="" && $LoginPass=="")
 if($user=="" && $pass=="" && $LoginUser!="" && $LoginPass!="")
 {
 	$servername="classmysql.engr.oregonstate.edu";
-	$username="cs340_bolanosf";
-	$pw="0468";
-	$DBname="cs340_bolanosf";
+	$username="cs340_simsw";
+	$pw="9855";
+	$DBname="cs340_simsw";
 
 	$conn = mysqli_connect($servername,$username,$pw,$DBname);
 	if (!$conn) {
